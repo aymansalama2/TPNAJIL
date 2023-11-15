@@ -1,0 +1,336 @@
+/* body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #222, #444);
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.order-container {
+  text-align: center;
+  margin: 20px;
+}
+
+.styled-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+  background: linear-gradient(to bottom, #555, #888);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease-in-out;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.styled-table th, .styled-table td {
+  border: 1px solid #777;
+  padding: 10px;
+  text-align: left;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.styled-table th {
+  background-color: #333;
+  color: #fff;
+}
+
+.styled-table td {
+  background-color: #444;
+}
+
+.styled-table tr:hover {
+  background-color: #666;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.styled-table:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.add-article-container {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: linear-gradient(to bottom, #222, #444);
+  transition: background-color 0.3s ease-in-out;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.add-article-container:hover {
+  background-color: #333;
+}
+
+input, button {
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+.total-container {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+input {
+  background-color: #555;
+}
+
+@media only screen and (max-width: 600px) {
+  .styled-table th, .styled-table td {
+    padding: 8px;
+  }
+
+  input, button {
+    padding: 8px;
+  }
+} */
+/* 
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #0277bd, #004d40);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .order-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .styled-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    background: linear-gradient(to bottom, #4fc3f7, #00838f);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease-in-out;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .styled-table th, .styled-table td {
+    border: 1px solid #006064;
+    padding: 10px;
+    text-align: left;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .styled-table th {
+    background-color: #004d40;
+    color: #fff;
+  }
+  
+  .styled-table td {
+    background-color: #00796b;
+  }
+  
+  .styled-table tr:hover {
+    background-color: #00838f;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .styled-table:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .add-article-container {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #006064;
+    border-radius: 8px;
+    background: linear-gradient(to bottom, #0277bd, #004d40);
+    transition: background-color 0.3s ease-in-out;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  .add-article-container:hover {
+    background-color: #00796b;
+  }
+  
+  input, button {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #006064;
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button {
+    background-color: #004d40;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #00838f;
+  }
+  
+  .total-container {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  input {
+    background-color: #00796b;
+  }
+  
+ 
+  @media only screen and (max-width: 600px) {
+    .styled-table th, .styled-table td {
+      padding: 8px;
+    }
+  
+    input, button {
+      padding: 8px;
+    }
+  }
+   */
+/* body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #e53935, #880e4f);
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.order-container {
+  text-align: center;
+  margin: 20px;
+}
+
+.styled-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+  background: linear-gradient(to bottom, #f06292, #ec407a);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease-in-out;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.styled-table th, .styled-table td {
+  border: 1px solid #ad1457;
+  padding: 10px;
+  text-align: left;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.styled-table th {
+  background-color: #880e4f;
+  color: #fff;
+}
+
+.styled-table td {
+  background-color: #c2185b;
+}
+
+.styled-table tr:hover {
+  background-color: #d81b60;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.styled-table:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.add-article-container {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ad1457;
+  border-radius: 8px;
+  background: linear-gradient(to bottom, #e53935, #880e4f);
+  transition: background-color 0.3s ease-in-out;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.add-article-container:hover {
+  background-color: #c2185b;
+}
+
+input, button {
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid #ad1457;
+  border-radius: 4px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button {
+  background-color: #880e4f;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d81b60;
+}
+
+.total-container {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+input {
+  background-color: #c2185b;
+}
+
+@media only screen and (max-width: 600px) {
+  .styled-table th, .styled-table td {
+    padding: 8px;
+  }
+
+  input, button {
+    padding: 8px;
+  }
+} */
